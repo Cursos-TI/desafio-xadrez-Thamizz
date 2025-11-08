@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int torre = 1, bispo = 1;
+    int torre = 1, bispo = 1, cavalo;
 
 
     //Movimentação Torre - 5 casas para direita
@@ -39,5 +39,26 @@ int main(){
     }
     
 
-    return 0;
+    //Movimentação Cavalo - 2 casas para cima e 1 para direita
+    //Movimento em L
+
+    printf("\n***Cavalo***\n\n");
+
+    for ( cavalo = 1; cavalo <= 1; cavalo++)
+    {        
+
+        int cavalo2 = 1; // variável - primeiro movimento
+
+        while (cavalo2 <= 2)
+        {
+            printf("Cima\n"); // impressão do primeiro movimento
+            cavalo2++;
+        }
+        
+        printf("Direita\n"); // impressão do segundo movimento
+
+    }
+    
+
+return 0;
 }
